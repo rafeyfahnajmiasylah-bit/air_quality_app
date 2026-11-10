@@ -45,19 +45,33 @@ Data yang digunakan:
 ## Project Structure
 
 ```text
-lib/
-├── models/
-│   └── air_quality.dart
-├── services/
-│   └── air_quality_service.dart
-├── ui/
-│   ├── screens/
-│   │   └── home_screen.dart
-│   └── widgets/
-│       ├── aqi_card.dart
-│       ├── pollutant_card.dart
-│       └── health_recommendation.dart
-└── main.dart
+air_quality_app/
+├── android/
+├── docs/
+│   └── DEVELOPMENT_PLAN.md
+├── ios/
+├── lib/
+│   ├── models/
+│   │   └── air_quality.dart
+│   ├── services/
+│   │   └── air_quality_service.dart
+│   ├── ui/
+│   │   ├── screens/
+│   │   │   └── home_screen.dart
+│   │   └── widgets/
+│   │       ├── aqi_card.dart
+│   │       ├── health_recommendation.dart
+│   │       └── pollutant_card.dart
+│   └── main.dart
+├── linux/
+├── macos/
+├── test/
+├── web/
+├── windows/
+├── README.md
+├── analysis_options.yaml
+├── pubspec.lock
+└── pubspec.yaml
 ```
 
 ## Installation and Setup
