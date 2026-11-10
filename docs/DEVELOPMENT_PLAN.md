@@ -52,6 +52,12 @@ Struktur folder aplikasi dibuat dengan pemisahan tanggung jawab antara model, se
 ```text
 air_quality_app/
 │
+├── android/
+├── ios/
+│
+├── docs/
+│   └── DEVELOPMENT_PLAN.md
+│
 ├── lib/
 │   ├── models/
 │   │   └── air_quality.dart
@@ -65,16 +71,22 @@ air_quality_app/
 │   │   │
 │   │   └── widgets/
 │   │       ├── aqi_card.dart
-│   │       ├── pollutant_card.dart
-│   │       └── health_recommendation.dart
+│   │       ├── health_recommendation.dart
+│   │       └── pollutant_card.dart
 │   │
 │   └── main.dart
 │
+├── linux/
+├── macos/
 ├── test/
-├── android/
-├── ios/
-├── pubspec.yaml
-└── pubspec.lock
+├── web/
+├── windows/
+│
+├── .metadata
+├── README.md
+├── analysis_options.yaml
+├── pubspec.lock
+└── pubspec.yaml
 ```
 
 Penjelasan setiap folder:
